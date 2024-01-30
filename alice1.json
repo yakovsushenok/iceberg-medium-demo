@@ -1,0 +1,20 @@
+{
+  "person_name": "Alice",
+  "sort_key": "2024_01",
+  "cars": [
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "maintenance": {
+        "oil_changes": ["2023_06", "2024_01"]
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Bronco",
+      "maintenance": {
+        "oil_changes": ["2023_09"]
+      }
+    }
+  ]
+}
