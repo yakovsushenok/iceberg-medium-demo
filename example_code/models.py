@@ -10,16 +10,22 @@ class Keys:
     sort_key: str
 
 
+@dataclass_json
+@dataclass
 class Maintenance:
     oil_changes: List[str]
 
 
+@dataclass_json
+@dataclass
 class Car:
     make: str
-    mode: str
     maintenance: Maintenance
+    model: str
 
 
+@dataclass_json
+@dataclass
 class NewImage:
     person_name: str
     sort_key: str
